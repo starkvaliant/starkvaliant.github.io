@@ -1,0 +1,106 @@
+/**
+* valiant | Stephanie Stark, Front-End Web Developer and Web Designer 
+* CSS last updated September 6, 2014 
+*
+* 1px = 0.0625em
+* Breakpoints at 768 and 480
+*
+* To all readers: greetings! :) 
+*/
+
+/* Colors
+- #921618 - Red
+- #f4b970 - Gold
+- #1e2225 - Grey Blue
+*/
+
+
+/*------------------------------------*\
+#General
+\*------------------------------------*/
+ html {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body {
+    font-family:"Lato", Helvetica, arial;
+    font-weight: normal;
+    padding: 0px;
+    margin: 0px;
+    font-size: 1em;
+    line-height: 1.4;
+    top: 0px;
+    position: relative;
+    height: 100%;
+}
+body h1 {
+    font-size: 5em;  
+    margin: 0;  
+}
+body h2 {
+    font-size: 2em;    
+}
+h1, h2, h3 {
+    font-family:'Vollkorn', 'Georgia', serif;
+    font-weight: 400;
+}
+
+p {
+    font-size: 1.5em;
+    color: #353c41;
+}
+p a {
+    color: #921618;
+    border-bottom: 1px solid #921618;
+    text-decoration:none;
+}
+
+
+
+ .greeting {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background:url("/img/light-scattered-pattern.png") repeat 0 0 scroll #ebeeef;
+}
+.greeting .content {
+    margin: auto;
+    max-width: 800px;
+    padding: 4em;
+    background: #fff;
+}
+.greeting h3 {
+    margin: .25em 0;    
+    line-height: 1;
+}
+ .greeting .social-wrapper .social {
+    padding: .25em;
+    text-align: center;
+}
+ .greeting .social-wrapper i {
+    display: block;
+ }
+ .greeting .social-wrapper .social a {
+    color: #921618;
+    text-decoration:none;
+    text-align: center;
+    border: 1px solid #d9dde0; 
+    display: block;
+    padding: 1em;
+}
+.outer {
+display: table;
+width: 100%;
+height: 100%;
+}
+.inner {
+display: table-cell;
+vertical-align: middle;
+}
