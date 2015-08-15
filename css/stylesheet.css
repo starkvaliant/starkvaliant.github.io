@@ -279,8 +279,8 @@ body .sidr .sidr-inner h1 {
     overflow: hidden;
     /* text-indent: -900px; */
     /* font-size: 1px; */
-    background: url("../../..img/valiant-graphic.png") no-repeat top center scroll transparent;
-    background-image: url("../../..img/Vailant-Logo-min.svg"), none;
+    background: url("../../../img/valiant-graphic.png") no-repeat top center scroll transparent;
+    background-image: url("../../../img/Vailant-Logo-min.svg"), none;
     background-size: 100px;
     padding: 0px;
     margin: 10px auto 0;
@@ -551,7 +551,7 @@ a:hover .info .title, a:hover .info .role {
 #About
 \*------------------------------------*/
  #about {
-    background: url("../../..img/light-scattered-pattern.png") repeat 0 0 scroll #ebeeef;
+    background: url("../../../img/light-scattered-pattern.png") repeat 0 0 scroll #ebeeef;
 }
 #about .container {
     overflow: auto;
@@ -795,7 +795,7 @@ footer a {
     bottom:0;
     width: 100%;
     height: 100%;
-    background:url("../../..img/light-scattered-pattern.png") repeat 0 0 scroll #ebeeef;
+    background:url("../../../img/light-scattered-pattern.png") repeat 0 0 scroll #ebeeef;
     padding: 1em;
     z-index:9999;
 }
