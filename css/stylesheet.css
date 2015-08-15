@@ -231,8 +231,8 @@ header.active {
         overflow: hidden;
         text-indent: -900px;
         font-size: 1px;
-        background: url("../../..img/valiant-graphic.png") no-repeat center center scroll transparent;
-        background-image: url("../../..img/Vailant-Logo-min.svg"), none;
+        background: url("../../../img/valiant-graphic.png") no-repeat center center scroll transparent;
+        background-image: url("../../../img/Vailant-Logo-min.svg"), none;
         background-size: 100px;
         padding: 0px;
         margin: 0px;
